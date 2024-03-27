@@ -41,7 +41,7 @@ a, a:visited, a:hover {
 
 hr {
     border: none; /* Remove default border */
-    border-top: 1px solid; /* Set custom border */
+    border-top: 1px solid #4632B5; /* Set custom border */
     margin: 0 0; /* Adjust margin as needed */
 }
 
