@@ -1,1 +1,63 @@
+/* specific elements */
 
+#merbit {
+  width: 45px;
+  padding: 5px;
+}
+
+#logo-cont {
+  background-color: cornflowerblue;
+  margin: 0;
+  padding: 8px;
+}
+
+/* generic element style */
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 10px 0px 5px 0px;
+}
+body {
+  font-family: monospace;
+  background-color: #fafafa;
+  color: black;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-left: -10px;
+}
+
+a, a:visited, a:hover {
+  color: cornflowerblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+hr {
+    border: none; /* Remove default border */
+    border-top: 1px solid; /* Set custom border */
+    margin: 0 0; /* Adjust margin as needed */
+}
+
+/* customization and stuff */
+
+.mar {
+  margin: 2px 10px 2px 10px;
+}
+
+.container {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  padding: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
